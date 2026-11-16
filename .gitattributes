@@ -1,0 +1,5 @@
+# Vendored BAREWire sources stay byte for byte as upstream.
+src/Ranvier.BAREWire/Vendor/BAREWire/** -text
+# ShipIt reads nothing from a CRLF changelog (RELEASE-RUNBOOK.md in the release workspace).
+**/CHANGELOG.md text eol=lf
+*.sh text eol=lf

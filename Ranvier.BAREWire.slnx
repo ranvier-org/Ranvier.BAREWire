@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/.environment/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="global.json" />
+    <File Path="nuget.config" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Build.targets" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Ranvier.BAREWire/Ranvier.BAREWire.fsproj" />
+    <Project Path="src/Ranvier.BAREWire.Query/Ranvier.BAREWire.Query.fsproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Ranvier.BAREWire.Tests/Ranvier.BAREWire.Tests.fsproj" />
+  </Folder>
+</Solution>
