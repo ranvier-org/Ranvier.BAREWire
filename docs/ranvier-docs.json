@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "title": "BAREWire",
+  "description": "Zero-copy BARE binary codecs, framing, duplex transport, and Ranvier.Query bindings across .NET, NativeAOT, and Fable.",
+  "index": "index.md",
+  "sections": [
+    {
+      "title": "BAREWire",
+      "items": [
+        "index.md",
+        "codecs-and-framing.md",
+        "queries.md"
+      ]
+    }
+  ]
+}
