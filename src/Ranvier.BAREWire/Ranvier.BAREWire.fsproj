@@ -13,7 +13,7 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <!-- The assembly holds Ranvier's code (MIT) and BAREWire's (Apache-2.0); both licence texts are packed below. -->
     <PackageLicenseExpression>MIT AND Apache-2.0</PackageLicenseExpression>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <AssemblyVersion>0.0.0.0</AssemblyVersion>
     <RanvierAotClean>true</RanvierAotClean>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
