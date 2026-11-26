@@ -37,11 +37,6 @@
     <None Include="README.md" Pack="true" PackagePath="\" />
     <None Include="../../brand/icon/ranvier-icon.png" Pack="true" PackagePath="\" Visible="false" />
   </ItemGroup>
-  <ItemGroup>
-    <!-- A package dependency on both targets, as in the Ranvier libraries. Only the Fable build uses it: BAREWire's
-         float shim emits a DataView cast behind `#if FABLE_COMPILER`. -->
-    <PackageReference Include="Fable.Core" Version="5.3.0" />
-  </ItemGroup>
   <ItemGroup Condition="'$(RanvierTrace)' == 'true'">
     <AssemblyMetadata Include="RanvierTrace" Value="true" />
   </ItemGroup>
