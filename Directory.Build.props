@@ -18,8 +18,8 @@
         <IncludeSymbols>false</IncludeSymbols>
         <UseLocalRanvier Condition="'$(UseLocalRanvier)' == ''">false</UseLocalRanvier>
         <RanvierRoot Condition="'$(RanvierRoot)' == ''">$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)../Ranvier'))</RanvierRoot>
-        <RanvierVersion>0.2.1</RanvierVersion>
-        <RanvierQueryVersion>0.2.1</RanvierQueryVersion>
+        <RanvierVersion>0.2.4</RanvierVersion>
+        <RanvierQueryVersion>0.2.4</RanvierQueryVersion>
         <RanvierTrace Condition="'$(RanvierTrace)' == '' and '$(Configuration)' == 'Debug'">true</RanvierTrace>
         <RanvierPackageSuffix Condition="'$(RanvierTrace)' == 'true'">.Traced</RanvierPackageSuffix>
     </PropertyGroup>
